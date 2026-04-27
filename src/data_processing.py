@@ -6,17 +6,15 @@ from datetime import datetime
 
 
 # ====================== M1 数据处理模块 ======================
-# 作业要求：加载数据 → 生成质量报告 → 清洗数据（注释说明理由）→ 提取特征 + 至少2个衍生特征
+
 
 def load_data(data_path: str = None, zone_path: str = None):
-    """
-    使用绝对路径加载数据（按你的要求修改）
-    """
+   
     import os
 
     print("正在加载数据（约300万条记录，请耐心等待）...")
 
-    # === 这里改成你的绝对路径（最重要！）===
+    # === 这里改成相对===
     if data_path is None:
         data_path = r"data/yellow_tripdata_2023-01.parquet"
         zone_path = r"data/taxi_zone_lookup.csv"
