@@ -11,8 +11,8 @@ def load_qa_resources():
 
     print("正在加载问答系统资源...")
 
-    cleaned_path = r"C:\Users\26779\Videos\桌面\学习\人工智能编程语言\AI_Prog_HW\data\cleaned_taxi_data.parquet"
-    demand_path = r"C:\Users\26779\Videos\桌面\学习\人工智能编程语言\AI_Prog_HW\data\demand_data.parquet"
+    cleaned_path = r"data/cleaned_taxi_data.parquet"
+    demand_path = r"data/demand_data.parquet"
 
     if not os.path.exists(cleaned_path):
         raise FileNotFoundError(f"cleaned_taxi_data.parquet 不存在！路径：{cleaned_path}")
