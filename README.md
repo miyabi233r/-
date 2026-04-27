@@ -50,3 +50,17 @@
 ---
 
 ## 项目结构
+AI_Prog_HW/
+├── main.py                 # 一键运行入口（M1→M2→M3→M4）
+├── requirements.txt
+├── report.md               # 人机协作报告
+├── data/                   # 数据文件
+│   ├── cleaned_taxi_data.parquet
+│   └── taxi_zone_lookup.csv
+├── outputs/                # 生成的图表（5+张）
+├── models/                 # 保存的神经网络模型
+└── src/
+├── data_processing.py
+├── analysis.py
+├── model.py
+└── qa.py
