@@ -18,7 +18,7 @@ plt.rcParams['axes.unicode_minus'] = False
 
 
 def load_cleaned_data(data_path: str = None):
-    """使用绝对路径加载清洗后的数据（M3）"""
+
     import os
     print("正在加载清洗后的数据用于建模...")
 
