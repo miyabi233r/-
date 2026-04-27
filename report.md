@@ -12,7 +12,7 @@ Prompt：
  “帮我写一个加载纽约出租车2023年1月parquet数据的函数，要求生成数据质量报告（缺失率、异常值统计），并进行数据清洗和特征工程，至少提取小时、星期、是否高峰期，以及两个衍生特征（行程时长和平均速度）。”
 
 AI 输出摘要：提供了完整的 `data_processing.py`，包含 load_data、generate_data_quality_report、clean_data、feature_engineering 等函数。
-我的决策：全部采用，但修改了加载路径为绝对路径（因为相对路径在 main.py 中报错），并在清洗步骤中增加了更详细的注释说明理由。
+我的决策：全部采用，修改了加载路径，，并在清洗步骤中增加了更详细的注释说明理由。
 AI 犯错案例：AI 最初建议的路径是相对路径 dataxxx.parquet，导致从根目录运行 main.py 时出现 FileNotFoundError。后来我改成相对路径后解决。
 
 ### M2 分析可视化阶段
