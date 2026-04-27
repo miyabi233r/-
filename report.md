@@ -13,7 +13,7 @@ Prompt：
 
 AI 输出摘要：提供了完整的 `data_processing.py`，包含 load_data、generate_data_quality_report、clean_data、feature_engineering 等函数。
 我的决策：全部采用，但修改了加载路径为绝对路径（因为相对路径在 main.py 中报错），并在清洗步骤中增加了更详细的注释说明理由。
-AI 犯错案例：AI 最初建议的路径是相对路径 dataxxx.parquet，导致从根目录运行 main.py 时出现 FileNotFoundError。后来我要求改成绝对路径后解决。
+AI 犯错案例：AI 最初建议的路径是相对路径 dataxxx.parquet，导致从根目录运行 main.py 时出现 FileNotFoundError。后来我改成相对路径后解决。
 
 ### M2 分析可视化阶段
 Prompt：
